@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/alert_d_"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:drawableRight="@android:drawable/ic_lock_idle_alarm"
+            android:textSize="16dp"
+            android:textColor="@color/text_color"
+            android:id="@+id/glu_when" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp">
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:focusable="false"
+            android:textIsSelectable="false"
+android:background="@drawable/edittx"
+            android:id="@+id/glu_h_ed"
+            android:layout_weight="0.7"
+            android:maxLength="2"
+            android:gravity="center_horizontal"
+            android:padding="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=":"
+            android:id="@+id/textView9" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:focusable="false"
+            android:textIsSelectable="false"
+            android:id="@+id/glu_min_ed"
+            android:layout_weight="0.7"
+            android:maxLength="2"
+            android:background="@drawable/edittx"
+
+            android:gravity="center_horizontal"
+            android:padding="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ساعت اندازه گیری : "
+            android:id="@+id/textView52" />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:gravity="center"
+            android:hint="مقدار را وارد کنید"
+            android:id="@+id/glu_value_ed" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_value"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="mg/dl" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ثبت"
+            android:background="@drawable/button_gradiant_grean_background"
+            android:textColor="@color/row_white"
+            android:id="@+id/btn_saveg"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:tint="@color/grey_60"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_delete"
+            android:id="@+id/btn_delete"
+            android:layout_weight="0.25" />
+
+
+    </TableRow>
+</LinearLayout>

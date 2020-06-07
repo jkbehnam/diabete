@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_5"
+    android:layoutDirection="ltr"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+
+       android:layout_height="match_parent"
+        android:foreground="@drawable/news_image_gradient"
+        android:foregroundTintMode="src_in"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back" />
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar_2">
+    </include>
+
+    <ScrollView
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cvstatus"
+                    app:cardCornerRadius="5dp"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1">
+                    <View
+                        android:layout_width="5dp"
+                        android:background="@drawable/main_img_item"
+                        android:layout_height="match_parent"></View>
+                    <LinearLayout
+                        android:gravity="right"
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/status"
+                                android:id="@+id/textView17"
+                                android:layout_alignTop="@+id/imgstatus"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp" />
+
+                            <TextView
+
+                                android:textSize="15dp"
+                                android:textColor="#000000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtstatus"
+                                android:layout_marginRight="10dp"
+                                android:hint="هنوز داده ای دریافت نشده است"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignRight="@+id/textView17"
+                                android:layout_alignEnd="@+id/textView17"
+                                android:layout_marginTop="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:background="@drawable/diabetes_"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:id="@+id/imgstatus"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cvdoctor"
+                    app:cardCornerRadius="5dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right">
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/doctorreminder"
+                                android:id="@+id/txt1"
+                                android:layout_alignTop="@+id/imgnobat"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp" />
+
+                            <com.example.diabetes.name.MyTextView
+
+                                android:textSize="15dp"
+                                android:textColor="#000000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:id="@+id/txtnobat"
+                                android:layout_marginRight="10dp"
+                                android:hint="قرار ملاقاتی تنظیم نشده است"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignRight="@+id/txt1"
+                                android:layout_alignEnd="@+id/txt1"
+                                android:layout_marginTop="5dp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:background="@drawable/doctor14"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:id="@+id/imgnobat"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="5dp"
+                        android:background="@drawable/main_img_item"
+                        android:layout_height="match_parent"></View>
+
+                </android.support.v7.widget.CardView>
+
+            </TableRow>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/MyGameMainActivity_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

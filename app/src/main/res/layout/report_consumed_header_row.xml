@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layoutDirection="rtl"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#1fb5b5"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#22caca"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#1fb5b5"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#22caca"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#1fb5b5"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#22caca"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

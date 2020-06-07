@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_weight="10"
+    android:orientation="horizontal" >
+
+
+
+    <TableLayout
+        android:id="@+id/insidetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        android:layout_weight="7" >
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="#b8b8b8"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/meal_layout"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#1fb5b5"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_layout"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Add"
+                android:id="@+id/textView97"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:paddingLeft="3dp"
+                android:id="@+id/imageView13"
+                android:src="@drawable/add_button"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

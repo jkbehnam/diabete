@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabetes.name">
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".graph"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".profileset"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".additem"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_feshar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_weight"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_cratine"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_ivancy"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_charbi"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".molaqat"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".connection"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".nobat"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".messagepage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".aboutus"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+
+        <receiver android:name=".bcr_nobat">
+            <intent-filter android:priority="999999999">
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="start" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".meghdarhayematloob">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity android:name=".sportandfood">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity android:name=".ansolin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity android:name=".tosieghandkhoon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity android:name=".childdiabete">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity android:name=".alarmsign">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.messagepage"></meta-data>
+        </activity>
+        <activity
+            android:name=".alarm"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.yadaavar"></meta-data>
+        </activity>
+        <activity
+            android:name=".yadaavar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+
+        <receiver
+            android:name=".bcr_alarm"
+            android:process=":remote" />
+
+        <activity android:name=".alarm_alarm"
+            android:showOnLockScreen="true"></activity>
+
+        <receiver android:name=".alarm_reset">
+            <intent-filter android:priority="999998888">
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".bsh_suggestion_calculation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".Glucose"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.graph"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Badazsobh"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Badsham"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Badnahar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Ghablazsobh"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Ghablnahar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_Ghablsham"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".graph_3midnight"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.Glucose"></meta-data>
+        </activity>
+        <activity
+            android:name=".AddFoodActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.TableView"></meta-data>
+        </activity>
+        <activity
+            android:name=".TableView"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetes.name.MainActivity"></meta-data>
+        </activity>
+        <activity android:name=".alarm_messages"
+            ><meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.diabetes.name.messagepage"></meta-data></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

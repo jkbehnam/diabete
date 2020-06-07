@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_5"
+    android:layoutDirection="ltr"
+    tools:context="com.example.diabetes.name.nobat">
+
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/nobatappbar">
+
+    </include>
+
+    <LinearLayout
+        android:layout_below="@id/nobatappbar"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end">
+
+                <TextView
+                    android:layout_marginRight="46dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="today: sunday 2015/5/5"
+                    android:textColor="@color/prof_text"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="پخش زنگ در هنگام یاد آوری انجام شود"
+                    android:textColor="#ffffff"
+                    android:checked="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnnobat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textColor="@color/button_text"
+                    android:background="@drawable/button_blue_gradiant"
+                    android:text="افزودن" />
+            </TableRow>
+
+            <ListView
+                android:id="@+id/listView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fastScrollEnabled="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

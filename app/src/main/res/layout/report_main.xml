@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#227e7e"
+    android:layoutDirection="rtl"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/reportbar"
+            layout="@layout/toolbar">
+        </include>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="#227e7e"
+        android:scrollbars="horizontal|vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TableLayout
+            android:id="@+id/maintable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="#227e7e"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#b8b8b8"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/MyTodayReport"
+                    android:textColor="#ffffff" />
+
+            </TableRow>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/tostoredata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+  >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:textColor="#ffffff" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/total_header_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#b8b8b8"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp" >
+
+
+
+                <FrameLayout
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TotalConsumedFood"
+                            android:id="@+id/textView98"
+                            android:layout_gravity="center"
+                            android:textColor="#ffffff"
+
+  />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:id="@+id/array_left"
+                            android:src="@drawable/arrow_left"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TotalConsumedFood"
+                            android:visibility="invisible"
+                            android:layout_gravity="center"
+                            android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/array_down"
+                        android:src="@drawable/arrow_down"
+                        android:visibility="invisible"
+
+                        android:layout_gravity="center" />
+                    </LinearLayout>
+                </FrameLayout>
+            </TableRow>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/tohide"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent"></LinearLayout>
+        </TableLayout>
+    </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#d58d09</color>
+    <color name="colorPrimaryDark">#D3D3D3</color>
+
+
+    <color name="colorAccent">#4d998c</color>
+    <color name="yellow">#ff9602</color>
+    <color name="spinner">#b31717</color>
+    <color name="blue">#0088ae</color>
+    <color name="abi_">#fff2f2f2</color>
+    <color name="alertd_blue">#e4f1f2</color>
+    <color name="top_red">#6c0700</color>
+    <color name="top_blue">#004b60</color>
+    <color name="transparent">#00000000</color>
+    <color name="row_white">#ffffff</color>
+    <color name="button_text">#ffffff</color>
+    <color name="row_dark">#8fadc2</color>
+    <color name="alert_back">#e4f1f2</color>
+    <color name="black">#000000</color>
+    <color name="nemodar">#8e8e8e</color>
+    <color name="grey_60">#ff666666</color>
+    <color name="grey_5">#fff2f2f2</color>
+    <color name="toolbar_color">#cc0203</color>
+    <color name="indigo_900">#1A237E</color>
+    <color name="bottonNav">#727272</color>
+    <color name="unselectText_tab">#FFCDD2</color>
+    <color name="selectText_tab">#f43856</color>
+    <color name="tab_background">#777777</color>
+    <color name="prof_text">#727272</color>
+    <color name="message_text">#3C3C3C</color>
+    <color name="unselect_cardview">#fafafa</color>
+    <color name="unselected_cardview_text">#7b7b7b</color>
+</resources>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abi_"
+    android:layoutDirection="ltr"
+    tools:context="com.example.diabetes.name.messagepage">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar">
+
+    </include>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:layoutDirection="rtl"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#ffffff"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView15" />
+
+                </TableRow>
+            </TableLayout>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="علایم"
+                    android:id="@+id/textView43"
+                    android:layout_marginBottom="10dp"/>
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="در صورت بروز علايم زير به پزشك مراجعه شود."
+                        android:id="@+id/textView44"
+                        android:layout_marginBottom="10dp"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/yellow"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1">
+
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تغييرات زياد ميزان قند خون"
+                        android:id="@+id/checkBox" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تب"
+                        android:id="@+id/checkBox2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="بی حسی در کف پا"
+                        android:id="@+id/checkBox3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="زخم"
+                        android:id="@+id/checkBox4" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مشکل بینایی"
+                        android:id="@+id/checkBox5" />
+                </TableRow>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/yellow"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1">
+
+                        </FrameLayout>
+                    </TableRow>
+
+                    <TextView
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="توصیه ها"
+                        android:id="@+id/textView46"
+                        android:layout_marginBottom="10dp"/>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/yellow"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1">
+
+                        </FrameLayout>
+                    </TableRow>
+
+                    <ScrollView
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scrollView2" >
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#000000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="قند خون ناشتای طبيعی برای یک فرد طبيعی غير دیابتی در حدود ٧٠ تا ١٠٠ ميلی گرم در دسی ليتر است ."
+                                    android:id="@+id/textView45"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="30dp"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:background="#5366bf"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1">
+
+                                </FrameLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#000000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="مقادیر قند خون مطلوب برای افراد مبتلا به دیابت به شرح زیر می باشد:"
+                                    android:id="@+id/textView47"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="30dp"/>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#0d3dde"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="قند خون ناشتا : ٧٠ تا ١٣٠ ميلی گرم در دسی ليتر"
+                                    android:id="@+id/textView48"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="30dp"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:background="#5366bf"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1">
+
+                                </FrameLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#0d3dde"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="قند خون پس از وعده غذایی : کمتر از ١٨٠ ميلی گرم در دسی ليتر"
+                                    android:id="@+id/textView49"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="30dp"/>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:background="#12d761"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1">
+
+                                </FrameLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#0d3dde"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="قند خون ٢ ساعت پس از صرف غذا: کمتر از ١٤٠ ميلی گرم در دسی ليتر"
+                                    android:id="@+id/textView50"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="30dp"/>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:background="#12d761"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1">
+
+                                </FrameLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#000000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="قند خون ٢ ساعت بعد از صرف غذا در فرد عادی باید کمتر از ١٢٠ ميلی گرم در دسی ليتر باشد، ولی هدف مطلوب در بيماران دیابتی این است
+که این قند خون به کمتر از ١٤٠ ميلی گرم در دسی ليتر برسد."
+                                    android:id="@+id/textView51"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="30dp"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:background="#12d761"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_weight="1">
+
+                                    </FrameLayout>
+                                </TableRow>
+                            </TableRow>
+                        </TableLayout>
+                    </ScrollView>
+
+                </TableLayout>
+
+            </TableLayout>
+
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

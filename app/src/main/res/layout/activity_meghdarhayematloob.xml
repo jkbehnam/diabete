@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abi_"
+    tools:context="com.example.diabetes.name.meghdarhayematloob">
+
+    <include
+        android:id="@+id/matloobappbar"
+        layout="@layout/toolbar">
+
+    </include>
+
+
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_below="@id/matloobappbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="قند خون ناشتای طبيعی برای یک فرد طبيعی غير دیابتی در حدود ٧٠ تا ١٠٠ ميلی گرم در دسی ليتر است .
+مقادیر قند خون مطلوب برای افراد مبتلا به دیابت به شرح زیر می باشد:"
+            android:id="@+id/textView42"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#e9de09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="-قند خون ناشتا : ٧٠ تا ١٣٠ ميلی گرم در دسی ليتر
+-قند خون پس از وعده غذایی : کمتر از ١٨٠ ميلی گرم در دسی ليتر
+-قند خون ٢ ساعت پس از صرف غذا: کمتر از ١٤٠ ميلی گرم در دسی ليتر"
+            android:id="@+id/textView48"
+            android:layout_below="@+id/textView42"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="قند خون ٢ ساعت بعد از صرف غذا در فرد عادی باید کمتر از ١٢٠ ميلی گرم در دسی ليتر باشد، ولی هدف مطلوب در بيماران دیابتی این است
+که این قند خون به کمتر از ١٤٠ ميلی گرم در دسی ليتر برسد."
+            android:id="@+id/textView49"
+            android:layout_below="@+id/textView48"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

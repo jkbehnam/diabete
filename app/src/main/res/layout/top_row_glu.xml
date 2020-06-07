@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/list_top"
+
+    android:orientation="vertical"
+    style="@android:style/Animation.Translucent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="قند خون"
+                android:id="@+id/sp_value"
+
+               android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ساعت"
+                android:id="@+id/sp_date"
+                android:layout_toLeftOf="@+id/sp_day"
+                android:layout_toStartOf="@+id/sp_day"
+
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="زمان"
+                android:paddingRight="20dp"
+                android:id="@+id/sp_day"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+               android:gravity="center_vertical|right"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+        </TableRow>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abi_"
+    android:layoutDirection="ltr"
+    tools:context="com.example.diabetes.name.aboutus">
+<include
+    layout="@layout/toolbar"
+    android:id="@+id/aboutusappbar">
+
+</include>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/logo_kimia"
+            android:id="@+id/imageView15"
+            android:layout_weight="0.28" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="کلیه حقوق این نرم افزار متعلق به شرکت"
+            android:id="@+id/textView50"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#f7e201"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="کیا الکترونیک بوتیا"
+            android:id="@+id/textView51"
+            android:layout_below="@+id/textView50"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="است"
+            android:id="@+id/textView60"
+            android:layout_below="@+id/textView51"
+            android:layout_centerHorizontal="true" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="رایانامه:"
+            android:id="@+id/textView37"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:textStyle="italic"
+android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="kiaelectronic95@gmail.com"
+            android:id="@+id/email"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:gravity="center"
+            android:text="هرگونه انتشار و کپی برداری ممنوع میباشد."
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView66"
+            android:layout_weight="0.15" />
+
+
+    </LinearLayout>
+</RelativeLayout>

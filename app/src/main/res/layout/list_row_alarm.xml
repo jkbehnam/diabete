@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+
+    android:orientation="vertical"
+    style="@android:style/Animation.Translucent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:id="@+id/row_alarm_1"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ch_2h"
+                android:checked="false"
+                android:padding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:buttonTint="@color/button_text"
+
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ch_10min"
+                android:checked="false"
+                android:focusable="false"
+                android:buttonTint="@color/button_text"
+                android:focusableInTouchMode="false"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="ساعت"
+                android:id="@+id/sp_time"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/sp_day"
+                android:layout_toStartOf="@+id/sp_day"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:freezesText="true"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="تاریخ"
+                android:id="@+id/sp_day"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+             android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:freezesText="true"
+                 />
+
+        </TableRow>
+
+    </RelativeLayout>
+
+</RelativeLayout>

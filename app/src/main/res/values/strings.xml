@@ -1,0 +1,124 @@
+<resources>
+    <string name="doctorreminder">یادآور ملاقات پزشک</string>
+    <string name="status">وضعیت قند خون</string>
+    <string name="ghandreminder">یادآور اندازه گیری قند خون</string>
+    <string name="ansolinreminder">یادآور تزریق انسولین</string>
+    <string name="app_name">مدیریت دیابت</string>
+    <string name="language">English</string>
+    <string name="ghandvalue"> مقدارهای</string>
+    <string name="sign">علایم</string>
+    <string name="oltimatom">هشداردهنده</string>
+    <string name="sport">تغذیه و ورزش</string>
+    <string name="ghandadvice">اندازه گیری قند خون</string>
+    <string name="ghandkhoon">اندازه گیری</string>
+    <string name="ghandlhoon1">قندخون</string>
+    <string name="ansolin">تزریق انسولین</string>
+    <string name="alarmsign">علایم هشدار دهنده</string>
+    <string name="childrenghand"> دیابت کودکان</string>
+    <string name="becareful">هشیار باش</string>
+    <string name="connections">ارتباطات</string>
+    <string name="nobat">یادآوری ها</string>
+    <string name="mellicode">کد ملی</string>
+    <string name="hourglo">ساعت آزمایش</string>
+    <string name="datelab">تاریخ آزمایش</string>
+    <string name="information">اطلاعات فردی</string>
+    <string name="add">درج آزمایش ها</string>
+    <string name="graph">نمودار ها</string>
+    <string name="doctorpage">صفحه پزشک</string>
+    <string name="alarms">هشدار ها</string>
+    <string name="alarm">هشیار باش</string>
+    <string name="messages">صندوق پیام</string>
+    <string name="ghand">قند خون</string>
+    <string name="feshar">فشار خون</string>
+    <string name="charbi">چربی خون</string>
+    <string name="ureh">اوره</string>
+    <string name="cratin">کراتین خون</string>
+    <string name="ivanci">ایوانسی</string>
+    <string name="firstname">نام</string>
+    <string name="lastname">نام خانوادگی</string>
+    <string name="birthday">تاریخ تولد</string>
+    <string name="sex">جنسیت</string>
+    <string name="male">مرد</string>
+    <string name="female">زن</string>
+    <string name="Number_of_Children">تعداد فرزندان</string>
+    <string name="distinction_date">تاریخ تشخیص بیماری</string>
+    <string name="family_antecendent">سابقه ی دیابت  در خانواده</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="diabete_type">نوع دیابت</string>
+    <string name="height">قد(cm)</string>
+    <string name="weight">وزن(kg)</string>
+    <string name="BMI">شاخص BMI</string>
+    <string name="disease">سابقه ی بیماری های زیر را دارم</string>
+    <string name="cure_type">شیوه ی درمان</string>
+    <string name="save">ثبت</string>
+    <string name="phoneNo">شماره موبایل</string>
+    <string name="phoneNo2">شماره موبایل2 </string>
+    <string name="title_activity_glucose">glucose</string>
+    <string name="ghablsobhane">قبل از صبحانه</string>
+    <string name="badsobhane">بعد از صبحانه</string>
+    <string name="ghabnahar">قبل از ناهار</string>
+    <string name="badnahar">بعد از ناهار</string>
+    <string name="ghabsham">قبل از شام</string>
+    <string name="badsham">بعد از شام</string>
+    <string name="semahe">سه ماهه</string>
+    <string name="ansolinreminders">توصیه های میزان \nانسولین</string>
+    <string name="mymeals"> وعده های غذایی </string>
+
+    <string name="List_Of_Favorite_Foods">انتخاب از غذاهای مورد علاقه من</string>
+    <string name="List_Of_Recent_Foods">انتخاب از غذا های اخیر</string>
+    <string name="Eaten_Foods">افزودن غذایی که به تازگی مصرف کرده ام</string>
+    <string name="Quantity">مقدار:</string>
+    <string name="Write_Down">یادداشتش کن</string>
+    <string name="Dont_Write_Down">یادداشتش نکن</string>
+    <string name="NutValue">تخمین ارزش غذایی:</string>
+    <string name="Fat">چربی:</string>
+    <string name="Protein">پروتیین:</string>
+    <string name="Calorie">کالری:</string>
+    <string name="Carbohydrate">کربوهیدرات:</string>
+    <string name="In">در:</string>
+    <string name="IAte">مصرف کرده ام.</string>
+    <string name="Choose">انتخاب</string>
+    <string name="FoodNotFound">غذا پیدا نشد!</string>
+
+    <string name="FoodAdded">غذا اضافه شد!</string>
+    <string name="FoodAName">نام</string>
+    <string name="Quantity1">واحد</string>
+    <string name="Carbohydrate1">قند</string>
+    <string name="Calorie1">کالری</string>
+    <string name="Protein1">پروتیین</string>
+    <string name="Fat1">چربی</string>
+    <string name="TotalConsumedFood">جمع ارزش غذایی خوراکی های مصرف شده</string>
+    <string name="Delete">حذف</string>
+    <string name="Edit">ویرایش</string>
+    <string name="Meal">وعده</string>
+    <string name="Add">اضافه</string>
+    <string name="Exit">خروج</string>
+    <string name="TotalSumOfFoods">جمع ارزش غذایی خوراکی های</string>
+    <string name="Confirm">تایید</string>
+    <string name="MyTodayReport">گزارش امروز من</string>
+    <string name="TotalSumNut">جمع ارزش غذایی</string>
+    <string name="EntertheFood">نام غذا را وارد کنید...</string>
+    <string name="FoodReport">گزارش غذایی</string>
+    <string name="AddedBefore">قبلا در این وعده وارد شده است!</string>
+    <string name="EnterAmount">مقدار صحیح وارد کنید!</string>
+    <string name="SearchFood">جست و جو غذا:</string>
+    <string name="AddFood">افزودن غذا</string>
+    <string-array name="array_name">
+        <item>صبحانه</item>
+        <item>نیم چاشت صبح</item>
+        <item>نهار</item>
+        <item>نیم چاشت عصر</item>
+        <item>شام</item>
+        <item>نیم چاشت نیمه شب</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>امروز</item>
+        <item>دیروز</item>
+        <item>دو روز پیش</item>
+    </string-array>
+
+
+</resources>
+
